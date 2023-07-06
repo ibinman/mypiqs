@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Index Page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#fff">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="Page description">
+    <!--Twitter Card data-->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@publisher_handle">
+    <meta name="twitter:title" content="Page Title">
+    <meta name="twitter:description" content="Page description less than 200 characters">
+    <meta name="twitter:creator" content="@author_handle">
+    <meta name="twitter:image" content="http://www.example.com/image.jpg">
+    <!--Open Graph data-->
+    <meta property="og:title" content="Title Here">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://www.example.com/">
+    <meta property="og:image" content="http://example.com/image.jpg">
+    <meta property="og:description" content="Description Here">
+    <meta property="og:site_name" content="Site Name, i.e. Moz">
+    <meta property="fb:admins" content="Facebook numeric ID">
+    <link rel="stylesheet" media="all" href="css/app.css">
+    <script>
+      var viewportmeta = document.querySelector('meta[name="viewport"]');
+      if (viewportmeta)
+      {
+        if (screen.width < 375)
+        {
+          var newScale = screen.width / 375;
+          viewportmeta.content = 'width=375, minimum-scale=' + newScale + ', maximum-scale=1.0, user-scalable=no, initial-scale=' + newScale + '';
+        }
+        else
+        {
+          viewportmeta.content = 'width=device-width, maximum-scale=1.0, initial-scale=1.0';
+        }
+      }
+
+    </script>
+  </head>
+  <body>
+    <div class="page">
+      <div class="main" id="main">
+        <div class="header js-header">
+          <div class="header__center center"><a class="header__logo" href="#"><img class="header__pic" src="img/logo.svg" alt=""></a>
+            <div class="header__wrap js-header-wrap">
+              <nav class="header__nav"><a class="header__link js-link" href="#main">home</a><a class="header__link js-link" href="#details">the product</a><a class="header__link js-link" href="#features">features</a></nav><a class="header__contact" href="#"><svg class="icon icon-mail">
+                  <use xlink:href="img/sprite.svg#icon-mail"></use>
+                </svg>contact us</a>
+            </div><button class="header__burger js-header-burger"></button>
+          </div>
+          <div class="header__bg js-header-bg"></div>
+        </div>
+        <div class="main__center center">
+          <div class="main__wrap">
+            <h1 class="main__title title title_big" data-aos="animation-scale-x">Meet MYPIQS. A&nbsp;great addition to any event.</h1>
+            <div class="main__text" data-aos="animation-scale-x" data-aos-delay="200">Distribute your photos directly to the guests whatsapp without hassle</div>
+            <div class="main__btns" data-aos="animation-scale-x" data-aos-delay="400">
+              <div class="main__btn"><button class="btn btn_blue"><span class="btn__text">Contact Us</span></button></div>
+            </div>
+          </div>
+        </div>
+        <div class="main__preview"><img class="main__pic" src="img/phone.svg" alt=""></div>
+        <div class="main__circles">
+          <div class="main__circle"></div>
+          <div class="main__circle"></div>
+          <div class="main__circle"></div>
+        </div>
+      </div>
+      <div class="clients">
+        <div class="clients__cetner center">
+          <h3 class="clients__title">Happy customers using MYPIQS</h3>
+          <div class="clients__list">
+            <div class="clients__logo" data-aos="animation-custom"><img class="clients__pic" src="img/google.png" alt="" width="117"></div>
+            <div class="clients__logo" data-aos-delay="200" data-aos="animation-custom"><img class="clients__pic" src="img/dribbble.png" alt="" width="130"></div>
+            <div class="clients__logo" data-aos-delay="400" data-aos="animation-custom"><img class="clients__pic" src="img/nucleo.png" alt="" width="166"></div>
+            <div class="clients__logo" data-aos-delay="600" data-aos="animation-custom"><img class="clients__pic" src="img/envato.png" alt="" width="168"></div>
+            <div class="clients__logo" data-aos-delay="800" data-aos="animation-custom"><img class="clients__pic" src="img/spotify.png" alt="" width="133"></div>
+          </div>
+        </div>
+      </div>
+      <div class="details" id="details">
+        <div class="details__center center">
+          <div class="details__item">
+            <div class="details__preview">
+              <div class="details__photo"><img class="details__pic" src="img/photo-1.png" alt=""></div>
+              <div class="details__bg" data-aos="animation-custom" data-aos-duration="1500" data-aos-offset="0"><img class="details__pic" src="img/photo-2.png" alt=""></div>
+              <div class="details__number" data-aos="animation-custom">01</div>
+            </div>
+            <div class="details__wrap" data-aos="animation-scale-x">
+              <h2 class="details__title title">Brand Exposure.</h2>
+              <div class="details__text">Your guests will become your ambassadors by sharing the branded pictures from the event</div><a class="details__more" href="#">learn more<svg class="icon icon-arrow-right">
+                  <use xlink:href="img/sprite.svg#icon-arrow-right"></use>
+                </svg></a>
+            </div>
+          </div>
+          <div class="details__item">
+            <div class="details__wrap" data-aos="animation-scale-x">
+              <h2 class="details__title title">All the right metrics.</h2>
+              <div class="details__text">Collect more information on what was the best in your event </div><a class="details__more" href="#">learn more<svg class="icon icon-arrow-right">
+                  <use xlink:href="img/sprite.svg#icon-arrow-right"></use>
+                </svg></a>
+            </div>
+            <div class="details__preview">
+              <div class="details__photo"><img class="details__pic" src="img/photo-3.png" alt=""></div>
+              <div class="details__bg" data-aos="animation-custom" data-aos-duration="1500" data-aos-offset="0"><img class="details__pic" src="img/photo-4.png" alt=""></div>
+              <div class="details__number" data-aos="animation-custom">02</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="features" id="features">
+        <div class="features__center center">
+          <h2 class="features__title title">Awesome Features</h2>
+          <div class="features__info">This should be some short description to support the title above.</div>
+          <div class="features__list">
+            <div class="features__item" data-aos="animation-scale-x">
+              <div class="features__preview"><img class="features__pic" src="img/icon-1.svg" alt=""></div>
+              <div class="features__category">Advanced technology</div>
+              <div class="features__text">Fully automated process with 99.9% accuracy.</div>
+            </div>
+            <div class="features__item" data-aos="animation-scale-x" data-aos-delay="200">
+              <div class="features__preview"><img class="features__pic" src="img/icon-2.svg" alt=""></div>
+              <div class="features__category">Service and Support</div>
+              <div class="features__text">This event is ours just like it is yours.</div>
+            </div>
+            <div class="features__item" data-aos="animation-scale-x" data-aos-delay="400">
+              <div class="features__preview"><img class="features__pic" src="img/icon-3.svg" alt=""></div>
+              <div class="features__category">Easy to Customize</div>
+              <div class="features__text">Add watermarks or any text to get your guests to tag you</div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+        <div class="download__list js-counter">
+          <div class="download__item">
+            <div class="download__icon">📱</div>
+            <div class="download__box">
+              <div class="download__title title title_big"><span class="js-counter-number" data-count="100">1</span>k</div>
+              <div class="download__note">Pictures delivered</div>
+            </div>
+          </div>
+          <div class="download__item">
+            <div class="download__icon">😍</div>
+            <div class="download__box">
+              <div class="download__title title title_big"><span class="js-counter-number" data-count="100">1</span>k</div>
+              <div class="download__note">Satisfied Customers</div>
+            </div>
+          </div>
+          <div class="download__item">
+            <div class="download__icon">😃</div>
+            <div class="download__box">
+              <div class="download__title title title_big"><span class="js-counter-number" data-count="80">1</span>k</div>
+              <div class="download__note">Happy Faces</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="features" id="features">
+        <div class="features__center center">
+          <h2 class="features__title title">Contact Us</h2><br>
+          <div class="features__category">Phone: +972-544642428 </br>
+          Email: info@mypiqs.com
+        </div>
+      </div>
+          
+      </div>
+      <div class="footer">
+        <div class="footer__center center">
+          <div class="footer__row"><a class="footer__logo" href="#"><img class="footer__pic" src="img/logo.svg" alt=""></a>
+            <div class="footer__menu"><a class="footer__link js-link" href="#main">home</a><a class="footer__link js-link" href="#details">the product</a><a class="footer__link js-link" href="#features">features</a></div>
+            <div class="footer__social social"><a class="social__link" href="#"><svg class="icon icon-facebook">
+                  <use xlink:href="img/sprite.svg#icon-facebook"></use>
+                </svg></a><a class="social__link" href="#"><svg class="icon icon-dribbble">
+                  <use xlink:href="img/sprite.svg#icon-dribbble"></use>
+                </svg></a><a class="social__link" href="#"><svg class="icon icon-twitter">
+                  <use xlink:href="img/sprite.svg#icon-twitter"></use>
+                </svg></a><a class="social__link" href="#"><svg class="icon icon-instagram">
+                  <use xlink:href="img/sprite.svg#icon-instagram"></use>
+                </svg></a></div>
+          </div>
+          <div class="footer__copyright">© Copyright 2023, MYPIQS. All rights are reserved.</div>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/common.js"></script>
+  </body>
+</html>

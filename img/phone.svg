@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="713" height="890" viewBox="0 0 713 890">
+  <defs>
+    <polygon id="phone-b" points="17.189 548.14 321.817 548.14 321.817 684.698 17.189 684.698"/>
+    <filter id="phone-a" width="159.1%" height="231.8%" x="-29.5%" y="-43.9%" filterUnits="objectBoundingBox">
+      <feOffset dy="30" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="25"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.177139946 0"/>
+      <feOffset dy="15" in="SourceAlpha" result="shadowOffsetOuter2"/>
+      <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="15"/>
+      <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0439594656 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+      </feMerge>
+    </filter>
+    <path id="phone-d" d="M289.055833,-0.00253663806 C315.565501,-0.00253663806 337.055833,21.4877954 337.055833,47.9974634 L337.055,160.297 L338.631941,160.297517 C339.366229,160.297517 339.961487,160.892775 339.961487,161.627063 L339.961487,236.219787 C339.961487,236.954075 339.366229,237.549333 338.631941,237.549333 L337.055,237.549 L337.055833,641.472454 C337.055833,667.982122 315.565501,689.472454 289.055833,689.472454 L50.9056537,689.472454 C24.3959857,689.472454 2.90565373,667.982122 2.90565373,641.472454 L2.905,260.487 L1.32954545,260.487557 C0.595257776,260.487557 4.00299513e-15,259.892299 0,259.158012 L0,209.524825 C-8.99243055e-17,208.790537 0.595257776,208.19528 1.32954545,208.19528 L2.905,208.195 L2.905,196.574 L1.32954545,196.574773 C0.595257776,196.574773 4.22503973e-15,195.979516 0,195.245228 L0,145.612041 C-8.99243055e-17,144.877753 0.595257776,144.282496 1.32954545,144.282496 L2.905,144.282 L2.905,118.136 L1.32954545,118.136357 C0.595257776,118.136357 5.34013515e-16,117.541099 0,116.806811 L0,88.9620737 C1.32120299e-16,88.227786 0.595257776,87.6325282 1.32954545,87.6325282 L2.905,87.632 L2.90565373,47.9974634 C2.90565373,21.4877954 24.3959857,-0.00253663806 50.9056537,-0.00253663806 L289.055833,-0.00253663806 Z"/>
+    <filter id="phone-c" width="141.2%" height="120.3%" x="-20.6%" y="-7.3%" filterUnits="objectBoundingBox">
+      <feOffset dy="20" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="20"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+    </filter>
+    <linearGradient id="phone-e" x1="40.197%" x2="59.927%" y1="3.49%" y2="95.909%">
+      <stop offset="0%" stop-color="#5F8CFF"/>
+      <stop offset="98.529%" stop-color="#45D4FF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="rotate(-25 426.853 -11.3)">
+    <use fill="#000" filter="url(#phone-a)" opacity=".206" xlink:href="#phone-b"/>
+    <use fill="#000" filter="url(#phone-c)" xlink:href="#phone-d"/>
+    <use fill="#FFF" xlink:href="#phone-d"/>
+    <path fill="url(#phone-e)" d="M51.0989599,16.2341326 L84.8679425,16.2341326 L255.093544,16.2341326 L288.862527,16.2341326 C306.535639,16.2341326 320.862527,30.5610206 320.862527,48.2341326 L320.862527,641.238338 C320.862527,658.91145 306.535639,673.238338 288.862527,673.238338 L51.0989599,673.238338 C33.4258479,673.238338 19.0989599,658.91145 19.0989599,641.238338 L19.0989599,48.2341326 C19.0989599,30.5610206 33.4258479,16.2341326 51.0989599,16.2341326 Z"/>
+  </g>
+</svg>
